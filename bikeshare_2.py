@@ -175,12 +175,12 @@ def user_stats(df):
     print('\n\n')
 
     # Display counts of gender
-    if 'Gender' in (df.columns):
+    if 'Gender' in df.columns:
         print(df['Gender'].value_counts())
         print('\n\n')
 
     # Display earliest, most recent, and most common year of birth
-    if 'Birth Year' in (df.columns):
+    if 'Birth Year' in df.columns:
         year = df['Birth Year'].fillna(0).astype('int64')
         print(
             f'Earliest birth year is: {year.min()}\nmost recent is: {year.max()}\nand most comon birth year is: {year.mode()[0]}')
