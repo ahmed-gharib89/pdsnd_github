@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+09-08-2020
 
-### Project Title
-Replace the Project Title
+### Bike Share Analysis
 
 ### Description
-Describe what your project is about and what it does
+I`m Currently working on [Programming for Data Science Nanodegree](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104) at [Udacity](https://www.udacity.com) and this project is a part of my Nanodegree study.
+
 
 ### Files used
-Include the files used
+As you can find in this repository 3 csv files which include a cleaned version of bike share data for 3 cities:
+* Chicago.
+* New York City.
+* Washington.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+And bikeshare_2.py file which include the script for the program.
